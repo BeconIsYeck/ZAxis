@@ -1,0 +1,36 @@
+var c = 5; // five
+var d = -5; // negative five
+var ee = -5; // negative five 
+
+var pyrPoly = new Trigon[] {
+	new Trigon(
+		new Vector3(d, d, d),
+		new Vector3(d, d, c),
+		new Vector3(c, d, d)
+	),
+	new Trigon(
+		new Vector3(c, d, c),
+		new Vector3(d, d, c),
+		new Vector3(c, d, d)
+	),
+	new Trigon(
+		new Vector3(0, ee, 0),
+		new Vector3(c, d, d),
+		new Vector3(d, d, d)
+	),
+	new Trigon(
+		new Vector3(0, ee, 0),
+		new Vector3(d, d, d),
+		new Vector3(d, d, c)
+	),
+	new Trigon(
+		new Vector3(0, ee, 0),
+		new Vector3(c, d, d),
+		new Vector3(c, d, c)
+	),
+	new Trigon(
+		new Vector3(0, ee, 0),
+		new Vector3(c, d, c),
+		new Vector3(d, d, c)
+	)
+};
