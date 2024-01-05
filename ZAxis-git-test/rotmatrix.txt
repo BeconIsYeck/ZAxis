@@ -1,0 +1,52 @@
+Elementary Rotations
+
+P: π
+T: θ
+C: ψ
+
+Rx(P)
+=
+( 1     0      0 )
+( 0 cos:P -sin:P )
+( 0 sin:P  cos:P )
+
+Ry(T)
+=
+( cos:T  0 sin:T )
+( 0      1     0 )
+( -sin:T 0 cos:T )
+
+Rz(C)
+=
+( cos:C -sin:C 0 )
+( sin:C  cos:C 0 )
+( 0     0      1 )
+
+R(P, T, C)
+
+
+Elementary Rot:
+
+3*2*2 = 12 Combinations for rotation?
+
+Total 12 Combinations:
+
+XYX XYZ XZX XZY
+YXY YXZ YZX YZY
+ZXY ZXZ ZYX ZYZ
+
+Euler Angles:
+
+3*2*1 = 6 Combinations for rotation
+
+XYX ___ XZX ___
+YXY ___ ___ YZY
+___ ZXZ ___ ZYZ
+
+Cardan Angles:
+
+3*2*1 = 6 Combinations for rotation
+
+___ XYZ ___ XZY
+___ YXZ YZX ___
+ZXY ___ ZYX ___
